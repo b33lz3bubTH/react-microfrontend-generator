@@ -1,4 +1,4 @@
-## Welsome 🅱️ihari,
+## Welcome Friend,
 ***
 
 ### This proj is best if you use turborepo, and i will keep eveything updated.
