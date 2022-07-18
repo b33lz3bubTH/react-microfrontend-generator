@@ -23,7 +23,7 @@ print("""
 
 
 _project_name: str = input("Enter Project Name: (Eg - research) - ")
-_port:int = int(input("Enter Project Port - "))
+_port:int = int(input("Enter Project Port: (Eg - 3001) - "))
 _cracorc_file = ".cracorc.js"
 _package_file = "package.json"
 _index_file = "public/index.html"

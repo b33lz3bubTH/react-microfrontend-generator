@@ -5,9 +5,9 @@
 
 > Setup
 
-    -- git clone <This Repo> /tmp/react-microfrontend-generator
+    -- git clone git@github.com:b33lz3bubTH/react-microfrontend-generator.git /tmp/react-microfrontend-generator
     -- go to your mono repo or mfes folder
-    -- ** python3 /tmp/react-mf-generate/generate.py **
+    -- ** python3 /tmp/react-microfrontend-generator/generate.py **
 
 
 
