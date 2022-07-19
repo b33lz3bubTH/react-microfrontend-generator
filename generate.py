@@ -24,11 +24,9 @@ print("""
 
 _project_name: str = input("Enter Project Name: (Eg - research) - ")
 _port:int = int(input("Enter Project Port: (Eg - 3001) - "))
+
+
 _cracorc_file = ".cracorc.js"
-_package_file = "package.json"
-_index_file = "public/index.html"
-
-
 _craco_rc_JS = f"""
 const {{ ModuleFederationPlugin }} = require("webpack").container;
 const deps = require("./package.json").dependencies;
@@ -71,6 +69,7 @@ module.exports = () => ({{
   }});
 """
 
+_package_file = "package.json"
 _package_JSON = f"""
 {{
   "name": "{_project_name}",
@@ -121,6 +120,7 @@ _package_JSON = f"""
 }}
 """
 
+_index_file = "public/index.html"
 _index_HTML = f"""
   <!DOCTYPE html>
   <html lang="en">
@@ -202,6 +202,3 @@ Note:
   - cd {_project_name.lower()} && ( yarn install or npm install ) to install dependencies.
   - go berserk break the code.
 """)
-
-
-
