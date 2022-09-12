@@ -1,7 +1,7 @@
 ## Welcome Friend,
 ***
 
-### This proj is best if you use turborepo, and i will keep eveything updated.
+### This is best fit for turborepo.
 
 > Setup
 
